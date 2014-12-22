@@ -45,7 +45,6 @@
 #include <QBrush>
 #include <QBitmap>
 
-//! [0]
 class Hud : public QWidget
 {
     Q_OBJECT
@@ -55,14 +54,17 @@ private:
     QBrush gbrush;
     QBrush rbrush;
     bool led_on[4];
+    
 protected:
     void paintEvent(QPaintEvent *event) Q_DECL_OVERRIDE;
+    void mousePressEvent(QMouseEvent *event) Q_DECL_OVERRIDE;
+    //void mouseMoveEvent(QMouseEvent *event) Q_DECL_OVERRIDE;
+    void mouseReleaseEvent(QMouseEvent *event) Q_DECL_OVERRIDE;
 public:
     Hud();
     void drawPixel(int x, int y);
     QSize minimumSizeHint() const Q_DECL_OVERRIDE;
     QSize sizeHint() const Q_DECL_OVERRIDE;
 };
-//! [0]
 
-#endif // WINDOW_H
+#endif // HUD_H
