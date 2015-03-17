@@ -1,0 +1,234 @@
+Cmp-Mod V01 Created by Cvpcb (2015-03-16 BZR 5519)-product   date = Вт. 17 марта 2015 15:33:38
+
+BeginCmp
+TimeStamp = /55081AC3/55083CBB;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55081AC3/55083CC2;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /550849D9/55083CBB;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /550849D9/55083CC2;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /550867F8/550869E6;
+Reference = C5;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /550867F8/55086A19;
+Reference = C6;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /550867F8/55086A55;
+Reference = C7;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55081AC3/55083CB4;
+Reference = D1;
+ValeurCmp = D_Schottky;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /550849D9/55083CB4;
+Reference = D2;
+ValeurCmp = D_Schottky;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /55088612;
+Reference = P1;
+ValeurCmp = CONN_01X01;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /550886A2;
+Reference = P2;
+ValeurCmp = CONN_01X01;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /5508876D;
+Reference = P3;
+ValeurCmp = CONN_01X01;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /550887CD;
+Reference = P4;
+ValeurCmp = CONN_01X01;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /55088A3F;
+Reference = P5;
+ValeurCmp = CONN_01X01;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /5508A15D;
+Reference = P6;
+ValeurCmp = CONN_01X02;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /55088C88;
+Reference = P7;
+ValeurCmp = CONN_01X01;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /55088D2D;
+Reference = P8;
+ValeurCmp = CONN_01X01;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /55088D95;
+Reference = P9;
+ValeurCmp = CONN_01X01;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /55088E28;
+Reference = P10;
+ValeurCmp = CONN_01X01;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /5508A802;
+Reference = P11;
+ValeurCmp = CONN_01X02;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /55081AC3/55083CE9;
+Reference = Q1;
+ValeurCmp = Q_NMOS_DGS;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /55081AC3/55083CE2;
+Reference = Q2;
+ValeurCmp = Q_NMOS_DGS;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /550849D9/55083CE9;
+Reference = Q3;
+ValeurCmp = Q_NMOS_DGS;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /550849D9/55083CE2;
+Reference = Q4;
+ValeurCmp = Q_NMOS_DGS;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /55081AC3/55083CDB;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55081AC3/55083CD4;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /550849D9/55083CDB;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /550849D9/55083CD4;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /550867F8/55086A70;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /550867F8/55086B00;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55081AC3/55083CF0;
+Reference = U1;
+ValeurCmp = IRS2004;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /550849D9/55083CF0;
+Reference = U2;
+ValeurCmp = IRS2004;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /550867F8/55086909;
+Reference = U3;
+ValeurCmp = ACS711;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+EndCmp
+
+EndListe

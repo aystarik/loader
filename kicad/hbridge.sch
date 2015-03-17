@@ -1,0 +1,263 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:hbridge
+LIBS:hbridge2
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 5450 2450 800  500 
+U 55081AC3
+F0 "Half Bridge" 60
+F1 "half-bridge.sch" 60
+F2 "VCC" I L 5450 2500 60 
+F3 "GND" I L 5450 2900 60 
+F4 "OUT" I R 6250 2700 60 
+F5 "VPP" I R 6250 2500 60 
+F6 "IN" I L 5450 2650 60 
+F7 "~SD" I L 5450 2800 60 
+$EndSheet
+$Sheet
+S 5450 3500 800  500 
+U 550849D9
+F0 "Half Bridge" 60
+F1 "half-bridge.sch" 60
+F2 "VCC" I L 5450 3550 60 
+F3 "GND" I L 5450 3950 60 
+F4 "OUT" I R 6250 3750 60 
+F5 "VPP" I R 6250 3550 60 
+F6 "IN" I L 5450 3700 60 
+F7 "~SD" I L 5450 3850 60 
+$EndSheet
+$Sheet
+S 7200 2650 750  400 
+U 550867F8
+F0 "Current Sensor" 60
+F1 "current-sensor.sch" 60
+F2 "IP+" I L 7200 2700 60 
+F3 "IP-" I R 7950 2700 60 
+F4 "AVCC" I L 7200 2800 60 
+F5 "~FAULT" I R 7950 2800 60 
+F6 "VOUT" I R 7950 2900 60 
+F7 "AGND" I L 7200 2950 60 
+$EndSheet
+$Comp
+L CONN_01X01 P1
+U 1 1 55088612
+P 4500 2500
+F 0 "P1" H 4500 2600 50  0000 C CNN
+F 1 "CONN_01X01" V 4600 2500 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01" H 4500 2500 60  0001 C CNN
+F 3 "" H 4500 2500 60  0000 C CNN
+	1    4500 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P2
+U 1 1 550886A2
+P 4500 2650
+F 0 "P2" H 4500 2750 50  0000 C CNN
+F 1 "CONN_01X01" V 4600 2650 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01" H 4500 2650 60  0001 C CNN
+F 3 "" H 4500 2650 60  0000 C CNN
+	1    4500 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P3
+U 1 1 5508876D
+P 4500 2800
+F 0 "P3" H 4500 2900 50  0000 C CNN
+F 1 "CONN_01X01" V 4600 2800 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01" H 4500 2800 60  0001 C CNN
+F 3 "" H 4500 2800 60  0000 C CNN
+	1    4500 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P4
+U 1 1 550887CD
+P 4500 2950
+F 0 "P4" H 4500 3050 50  0000 C CNN
+F 1 "CONN_01X01" V 4600 2950 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01" H 4500 2950 60  0001 C CNN
+F 3 "" H 4500 2950 60  0000 C CNN
+	1    4500 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P5
+U 1 1 55088A3F
+P 4500 3700
+F 0 "P5" H 4500 3800 50  0000 C CNN
+F 1 "CONN_01X01" V 4600 3700 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01" H 4500 3700 60  0001 C CNN
+F 3 "" H 4500 3700 60  0000 C CNN
+	1    4500 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P7
+U 1 1 55088C88
+P 6800 2800
+F 0 "P7" H 6800 2900 50  0000 C CNN
+F 1 "CONN_01X01" V 6900 2800 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01" H 6800 2800 60  0001 C CNN
+F 3 "" H 6800 2800 60  0000 C CNN
+	1    6800 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P8
+U 1 1 55088D2D
+P 6800 2950
+F 0 "P8" H 6800 3050 50  0000 C CNN
+F 1 "CONN_01X01" V 6900 2950 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01" H 6800 2950 60  0001 C CNN
+F 3 "" H 6800 2950 60  0000 C CNN
+	1    6800 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P9
+U 1 1 55088D95
+P 8400 2800
+F 0 "P9" H 8400 2900 50  0000 C CNN
+F 1 "CONN_01X01" V 8500 2800 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01" H 8400 2800 60  0001 C CNN
+F 3 "" H 8400 2800 60  0000 C CNN
+	1    8400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P10
+U 1 1 55088E28
+P 8400 2900
+F 0 "P10" H 8400 3000 50  0000 C CNN
+F 1 "CONN_01X01" V 8500 2900 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01" H 8400 2900 60  0001 C CNN
+F 3 "" H 8400 2900 60  0000 C CNN
+	1    8400 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 2500 6350 2500
+Wire Wire Line
+	6350 2000 6350 3550
+Wire Wire Line
+	6350 3550 6250 3550
+Wire Wire Line
+	4700 2650 5450 2650
+Wire Wire Line
+	4700 2800 5450 2800
+Wire Wire Line
+	5300 2800 5300 3850
+Wire Wire Line
+	5300 3850 5450 3850
+Wire Wire Line
+	4700 3700 5450 3700
+Wire Wire Line
+	5450 3550 5400 3550
+Wire Wire Line
+	5400 3550 5400 2500
+Wire Wire Line
+	4700 2500 5450 2500
+Wire Wire Line
+	5450 2900 5350 2900
+Wire Wire Line
+	5350 2900 5350 3950
+Wire Wire Line
+	5350 3950 5450 3950
+Wire Wire Line
+	6250 3750 8600 3750
+Wire Wire Line
+	6250 2700 7200 2700
+Connection ~ 5400 2500
+Connection ~ 5300 2800
+Wire Wire Line
+	4700 2950 5350 2950
+Connection ~ 5350 2950
+Wire Wire Line
+	7950 2800 8200 2800
+Wire Wire Line
+	8200 2900 7950 2900
+Wire Wire Line
+	7000 2800 7200 2800
+Wire Wire Line
+	7000 2950 7200 2950
+$Comp
+L CONN_01X02 P6
+U 1 1 5508A15D
+P 6800 2050
+F 0 "P6" H 6800 2200 50  0000 C CNN
+F 1 "CONN_01X02" V 6900 2050 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 6800 2050 60  0001 C CNN
+F 3 "" H 6800 2050 60  0000 C CNN
+	1    6800 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2000 6350 2000
+Connection ~ 6350 2500
+Wire Wire Line
+	5350 2950 5350 2100
+Wire Wire Line
+	5350 2100 6600 2100
+$Comp
+L CONN_01X02 P11
+U 1 1 5508A802
+P 9100 2750
+F 0 "P11" H 9100 2900 50  0000 C CNN
+F 1 "CONN_01X02" V 9200 2750 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 9100 2750 60  0001 C CNN
+F 3 "" H 9100 2750 60  0000 C CNN
+	1    9100 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 2700 8900 2700
+Wire Wire Line
+	8900 2800 8600 2800
+Wire Wire Line
+	8600 2800 8600 3750
+$EndSCHEMATC
