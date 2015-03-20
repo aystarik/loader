@@ -1,4 +1,4 @@
-update=Вт. 17 марта 2015 12:59:14
+update=Ср. 18 марта 2015 14:51:13
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,11 +23,9 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=libs
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -60,4 +58,5 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=libs/hbridge
-LibName32=libs/hbridge2
+[general]
+version=1

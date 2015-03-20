@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-16 BZR 5519)-product   date = Вт. 17 марта 2015 15:33:38
+Cmp-Mod V01 Created by Cvpcb (2015-03-16 BZR 5519)-product   date = Ср. 18 марта 2015 14:05:37
 
 BeginCmp
 TimeStamp = /55081AC3/55083CBB;
@@ -144,28 +144,28 @@ BeginCmp
 TimeStamp = /55081AC3/55083CE9;
 Reference = Q1;
 ValeurCmp = Q_NMOS_DGS;
-IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical;
+IdModule  = Transistors_TO-220:TO-220_Neutral123_Vertical;
 EndCmp
 
 BeginCmp
 TimeStamp = /55081AC3/55083CE2;
 Reference = Q2;
 ValeurCmp = Q_NMOS_DGS;
-IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical;
+IdModule  = Transistors_TO-220:TO-220_Neutral123_Vertical;
 EndCmp
 
 BeginCmp
 TimeStamp = /550849D9/55083CE9;
 Reference = Q3;
 ValeurCmp = Q_NMOS_DGS;
-IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical;
+IdModule  = Transistors_TO-220:TO-220_Neutral123_Vertical;
 EndCmp
 
 BeginCmp
 TimeStamp = /550849D9/55083CE2;
 Reference = Q4;
 ValeurCmp = Q_NMOS_DGS;
-IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical;
+IdModule  = Transistors_TO-220:TO-220_Neutral123_Vertical;
 EndCmp
 
 BeginCmp
