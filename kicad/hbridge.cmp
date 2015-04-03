@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-16 BZR 5519)-product   date = Ср. 18 марта 2015 14:05:37
+Cmp-Mod V01 Created by Cvpcb (2015-03-16 BZR 5519)-product   date = Вт. 24 марта 2015 16:13:56
 
 BeginCmp
 TimeStamp = /55081AC3/55083CBB;
@@ -11,7 +11,7 @@ BeginCmp
 TimeStamp = /55081AC3/55083CC2;
 Reference = C2;
 ValeurCmp = C;
-IdModule  = Capacitors_SMD:C_0805;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -25,7 +25,7 @@ BeginCmp
 TimeStamp = /550849D9/55083CC2;
 Reference = C4;
 ValeurCmp = C;
-IdModule  = Capacitors_SMD:C_0805;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -53,14 +53,14 @@ BeginCmp
 TimeStamp = /55081AC3/55083CB4;
 Reference = D1;
 ValeurCmp = D_Schottky;
-IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+IdModule  = Diodes_SMD:Diode-DO-214BA;
 EndCmp
 
 BeginCmp
 TimeStamp = /550849D9/55083CB4;
 Reference = D2;
 ValeurCmp = D_Schottky;
-IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+IdModule  = Diodes_SMD:Diode-DO-214BA;
 EndCmp
 
 BeginCmp
@@ -102,7 +102,7 @@ BeginCmp
 TimeStamp = /5508A15D;
 Reference = P6;
 ValeurCmp = CONN_01X02;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
+IdModule  = Connect:AK300-2;
 EndCmp
 
 BeginCmp
@@ -137,7 +137,7 @@ BeginCmp
 TimeStamp = /5508A802;
 Reference = P11;
 ValeurCmp = CONN_01X02;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
+IdModule  = Connect:AK300-2;
 EndCmp
 
 BeginCmp

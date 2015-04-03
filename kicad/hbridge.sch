@@ -189,34 +189,19 @@ Wire Wire Line
 Wire Wire Line
 	4700 2650 5450 2650
 Wire Wire Line
-	4700 2800 5450 2800
-Wire Wire Line
-	5300 2800 5300 3850
-Wire Wire Line
-	5300 3850 5450 3850
+	4900 3850 5450 3850
 Wire Wire Line
 	4700 3700 5450 3700
 Wire Wire Line
-	5450 3550 5400 3550
-Wire Wire Line
-	5400 3550 5400 2500
+	5000 3550 5450 3550
 Wire Wire Line
 	4700 2500 5450 2500
 Wire Wire Line
-	5450 2900 5350 2900
-Wire Wire Line
-	5350 2900 5350 3950
-Wire Wire Line
-	5350 3950 5450 3950
+	4800 3950 5450 3950
 Wire Wire Line
 	6250 3750 8600 3750
 Wire Wire Line
 	6250 2700 7200 2700
-Connection ~ 5400 2500
-Connection ~ 5300 2800
-Wire Wire Line
-	4700 2950 5350 2950
-Connection ~ 5350 2950
 Wire Wire Line
 	7950 2800 8200 2800
 Wire Wire Line
@@ -231,7 +216,7 @@ U 1 1 5508A15D
 P 6800 2050
 F 0 "P6" H 6800 2200 50  0000 C CNN
 F 1 "CONN_01X02" V 6900 2050 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 6800 2050 60  0001 C CNN
+F 2 "Connect:AK300-2" H 6800 2050 60  0001 C CNN
 F 3 "" H 6800 2050 60  0000 C CNN
 	1    6800 2050
 	1    0    0    -1  
@@ -239,17 +224,13 @@ $EndComp
 Wire Wire Line
 	6600 2000 6350 2000
 Connection ~ 6350 2500
-Wire Wire Line
-	5350 2950 5350 2100
-Wire Wire Line
-	5350 2100 6600 2100
 $Comp
 L CONN_01X02 P11
 U 1 1 5508A802
 P 9100 2750
 F 0 "P11" H 9100 2900 50  0000 C CNN
 F 1 "CONN_01X02" V 9200 2750 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 9100 2750 60  0001 C CNN
+F 2 "Connect:AK300-2" H 9100 2750 60  0001 C CNN
 F 3 "" H 9100 2750 60  0000 C CNN
 	1    9100 2750
 	1    0    0    -1  
@@ -260,4 +241,28 @@ Wire Wire Line
 	8900 2800 8600 2800
 Wire Wire Line
 	8600 2800 8600 3750
+Wire Wire Line
+	4700 2800 5450 2800
+Wire Wire Line
+	4700 2950 5300 2950
+Wire Wire Line
+	5300 2950 5300 2900
+Wire Wire Line
+	5300 2900 5450 2900
+Wire Wire Line
+	4800 2950 4800 4150
+Connection ~ 4800 2950
+Wire Wire Line
+	4900 3850 4900 2800
+Connection ~ 4900 2800
+Wire Wire Line
+	5000 3550 5000 2500
+Connection ~ 5000 2500
+Wire Wire Line
+	6600 2100 6500 2100
+Wire Wire Line
+	6500 4150 6500 2100
+Wire Wire Line
+	4800 4150 6500 4150
+Connection ~ 4800 3950
 $EndSCHEMATC

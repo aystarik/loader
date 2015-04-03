@@ -1,4 +1,4 @@
-update=Ср. 18 марта 2015 14:51:13
+update=Вт. 24 марта 2015 16:14:13
 version=1
 last_client=kicad
 [pcbnew]
@@ -20,9 +20,6 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
-[cvpcb]
-version=1
-NetIExt=net
 [eeschema]
 version=1
 LibDir=libs
@@ -60,3 +57,6 @@ LibName30=valves
 LibName31=libs/hbridge
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
