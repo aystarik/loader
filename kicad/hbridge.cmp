@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-16 BZR 5519)-product   date = Вт. 24 марта 2015 16:13:56
+Cmp-Mod V01 Created by Cvpcb (2015-04-07 BZR 5580)-product   date = Thu 09 Apr 2015 20:40:39 MSK
 
 BeginCmp
 TimeStamp = /55081AC3/55083CBB;
@@ -50,6 +50,20 @@ IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /5526BB03;
+Reference = C8;
+ValeurCmp = CP;
+IdModule  = Capacitors_ThroughHole:C_Radial_D10_L20_P7.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5526BBB6;
+Reference = C9;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /55081AC3/55083CB4;
 Reference = D1;
 ValeurCmp = D_Schottky;
@@ -66,78 +80,78 @@ EndCmp
 BeginCmp
 TimeStamp = /55088612;
 Reference = P1;
-ValeurCmp = CONN_01X01;
+ValeurCmp = VCC;
 IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
 EndCmp
 
 BeginCmp
 TimeStamp = /550886A2;
 Reference = P2;
-ValeurCmp = CONN_01X01;
+ValeurCmp = IN1;
 IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
 EndCmp
 
 BeginCmp
 TimeStamp = /5508876D;
 Reference = P3;
-ValeurCmp = CONN_01X01;
+ValeurCmp = ~SD;
 IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
 EndCmp
 
 BeginCmp
 TimeStamp = /550887CD;
 Reference = P4;
-ValeurCmp = CONN_01X01;
+ValeurCmp = GND;
 IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
 EndCmp
 
 BeginCmp
 TimeStamp = /55088A3F;
 Reference = P5;
-ValeurCmp = CONN_01X01;
+ValeurCmp = IN2;
 IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
 EndCmp
 
 BeginCmp
 TimeStamp = /5508A15D;
 Reference = P6;
-ValeurCmp = CONN_01X02;
-IdModule  = Connect:AK300-2;
+ValeurCmp = POWER;
+IdModule  = Connect:bornier2;
 EndCmp
 
 BeginCmp
 TimeStamp = /55088C88;
 Reference = P7;
-ValeurCmp = CONN_01X01;
+ValeurCmp = AVCC;
 IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
 EndCmp
 
 BeginCmp
 TimeStamp = /55088D2D;
 Reference = P8;
-ValeurCmp = CONN_01X01;
+ValeurCmp = AGND;
 IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
 EndCmp
 
 BeginCmp
 TimeStamp = /55088D95;
 Reference = P9;
-ValeurCmp = CONN_01X01;
+ValeurCmp = ~FAULT;
 IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
 EndCmp
 
 BeginCmp
 TimeStamp = /55088E28;
 Reference = P10;
-ValeurCmp = CONN_01X01;
+ValeurCmp = VOUT;
 IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
 EndCmp
 
 BeginCmp
 TimeStamp = /5508A802;
 Reference = P11;
-ValeurCmp = CONN_01X02;
-IdModule  = Connect:AK300-2;
+ValeurCmp = OUT;
+IdModule  = Connect:bornier2;
 EndCmp
 
 BeginCmp
